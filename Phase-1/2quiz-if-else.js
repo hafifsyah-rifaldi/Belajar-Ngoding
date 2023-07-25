@@ -15,42 +15,44 @@ let bulan = 5; // assign nilai variabel bulan disini! (dengan angka antara 1 - 1
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-switch (bulan) {
-    case 1:
-        bulan = "Januari";
-        break;
-    case 2:
-        bulan = "Februari";
-        break;
-    case 3:
-        bulan = "Maret";
-        break;
-    case 4:
-        bulan = "April";
-        break;
-    case 5:
-        bulan = "Mei";
-        break;
-    case 6:
-        bulan = "Juni";
-        break;
-    case 7:
-        bulan = "Juli";
-        break;
-    case 8:
-        bulan = "Agustus";
-        break;
-    case 9:
-        bulan = "September";
-        break;
-    case 10:
-        bulan = "Oktober";
-        break;
-    case 11:
-        bulan = "November";
-        break;
-    case 12:
-        bulan = "Desember";
-        break;
-}
-console.log(tanggal, bulan, tahun);
+if (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200)
+    switch (bulan) {
+        case 1:
+            console.log(`${tanggal} Januari ${tahun}`);
+            break;
+        case 2:
+            console.log(`${tanggal} Februari ${tahun}`);
+            break;
+        case 3:
+            console.log(`${tanggal} Maret ${tahun}`);
+            break;
+        case 4:
+            console.log(`${tanggal} April ${tahun}`);
+            break;
+        case 5:
+            console.log(`${tanggal} Mei ${tahun}`);
+            break;
+        case 6:
+            console.log(`${tanggal} Juni ${tahun}`);
+            break;
+        case 7:
+            console.log(`${tanggal} Juli ${tahun}`);
+            break;
+        case 8:
+            console.log(`${tanggal} Agustus ${tahun}`);
+            break;
+        case 9:
+            console.log(`${tanggal} September ${tahun}`);
+            break;
+        case 10:
+            console.log(`${tanggal} Oktober ${tahun}`);
+            break;
+        case 11:
+            console.log(`${tanggal} November ${tahun}`);
+            break;
+        case 12:
+            console.log(`${tanggal} Desember ${tahun}`);
+            break;
+    }
+
+// console.log(tanggal, bulan, tahun);

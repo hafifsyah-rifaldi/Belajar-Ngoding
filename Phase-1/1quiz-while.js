@@ -46,6 +46,7 @@ Untuk membuat tantangan ini lebih menarik, kamu juga diminta untuk membuat suatu
 menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
  */
+// code jawaban
 
 /* 1. Melakukan Looping Menggunakan For
 Problem
